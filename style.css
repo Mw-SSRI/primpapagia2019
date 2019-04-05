@@ -1,0 +1,76 @@
+body {font-family: Futura}
+
+header {
+	background-color: pink;
+}
+
+nav {
+	background-color: green;
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#content {
+	background-color: orange;
+	width: 80%;
+	display: inline-flex;
+	position: relative;
+}
+
+footer {
+	background-color: grey;
+	display: block;
+	position: sticky;
+	bottom: 0px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px){
+	#content {
+		width: 80%;
+	}
+	nav {
+		width: 17%;
+	}
+
+}
+
+@media screen and (max-width: 667px){
+	#content {
+		width: auto;
+	}
+	nav {
+		display: block;
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+
+	body{ 
+		font-size: 14px;
+	 }
+	#content {
+		width: auto;
+	}
+	nav {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
