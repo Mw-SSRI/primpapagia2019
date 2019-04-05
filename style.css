@@ -28,7 +28,19 @@ footer {
 	bottom: 0px;
 }
 
+
+
 /* Disegno e animazione */
+
+.feather {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
 
 /*
 #icon1{
